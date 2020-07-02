@@ -9,7 +9,7 @@ Python tool to detect critical information (passwords, usernames, strings connec
 ``` 
 
 ## Usage
--GIT-HUNTER script works with Python3.
+GIT-HUNTER script only works in Python3.
 ```
 usage: git_hunter.py [-h] [-f FILENAME] [-c COOKIE] [-d DIRECTORY] enterprise
 
@@ -47,6 +47,12 @@ Use the --filename and --cookie options to get more repositories and more inform
   5. You can see the result in GITHUB_enterprise_log.txt file.
 
 ## Requirements
-
+- The script was tested in Kali Linux 2020.2 and not need install any library.
+- If you use another Linux distro or other Kali Linux version. You need install the following libraries for python3:
+* URLLIB
+* GIT
+* COLORAMA
+* BEATIFULSOUP
+* SHUTIL
 
 # Credits
