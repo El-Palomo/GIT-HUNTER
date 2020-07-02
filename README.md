@@ -55,4 +55,4 @@ Use the --filename and --cookie options to get more repositories and more inform
 * BEATIFULSOUP
 * SHUTIL
 
-# Credits
+# Demo
