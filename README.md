@@ -46,6 +46,11 @@ Use the --filename and --cookie options to get more repositories and more inform
     ```
   5. You can see the result in GITHUB_enterprise_log.txt file.
 
+## Customize and next steps
+1. If you need search more strings, edit the line 18 and add the word that you need.
+2. For the next version of GIT-HUNTER, I'll add more dorks posibilities.
+3. For best results, manually search on github.
+
 ## Requirements
 1. The script was tested in Kali Linux 2020.2 and not need install any library.
 2. If you use another Linux distro or other Kali Linux version. You need install the following libraries for python3:
