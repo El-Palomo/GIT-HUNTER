@@ -56,3 +56,4 @@ Use the --filename and --cookie options to get more repositories and more inform
 * SHUTIL
 
 # Demo
+![Test Image 1](https://github.com/El-Palomo/GIT-HUNTER/blob/master/example/1_example.png)
