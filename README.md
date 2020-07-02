@@ -47,8 +47,8 @@ Use the --filename and --cookie options to get more repositories and more inform
   5. You can see the result in GITHUB_enterprise_log.txt file.
 
 ## Requirements
-- The script was tested in Kali Linux 2020.2 and not need install any library.
-- If you use another Linux distro or other Kali Linux version. You need install the following libraries for python3:
+1. The script was tested in Kali Linux 2020.2 and not need install any library.
+2. If you use another Linux distro or other Kali Linux version. You need install the following libraries for python3:
 * URLLIB
 * GIT
 * COLORAMA
