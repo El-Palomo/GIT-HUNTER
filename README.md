@@ -31,9 +31,20 @@ Only search in the REPOSITORY section of Github.
   1. Select an enterprise/organization in Github.
   2. You can use GIT-HUNTER with the following command:
     ```
-    root@kali:~/GIT-HUNTER# python3 git_hunter.py -d /opt antamina
+    root@kali:~/GIT-HUNTER# python3 git_hunter.py -d /opt enterprise
     ```
+  3. You can see the result in GITHUB_enterprise_log.txt file.
 
+- Method 2:
+Use the --filename and --cookie options to get more repositories and more information.
+  1. Select an enterprise/organization in Github.
+  2. Login in GITHUB and get the "user_session" cookie value to use with the --cookie option. There are many ways to get the cookie.
+  3. Select a file type to  use wiht the --filename option. PROPERTIES or CONFIG file for example.
+  4. Run GIT-HUNTER with the following command:
+    ```
+    root@kali:~/GIT-HUNTER# python3 git_hunter.py -d /opt -f properties -c [USER_SESSION_COOKIE] enterprise
+    ```
+  5. You can see the result in GITHUB_enterprise_log.txt file.
 
 ## Requirements
 
