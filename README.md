@@ -57,3 +57,6 @@ Use the --filename and --cookie options to get more repositories and more inform
 
 # Demo
 ![Test Image 1](https://github.com/El-Palomo/GIT-HUNTER/blob/master/example/1_example.png)
+![Test Image 2](https://github.com/El-Palomo/GIT-HUNTER/blob/master/example/2_example.png)
+![Test Image 3](https://github.com/El-Palomo/GIT-HUNTER/blob/master/example/3_example.png)
+![Test Image 4](https://github.com/El-Palomo/GIT-HUNTER/blob/master/example/4_example.png)
