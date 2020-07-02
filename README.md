@@ -9,6 +9,7 @@ Python tool to detect critical information (passwords, usernames, strings connec
 ``` 
 
 ## Usage
+-GIT-HUNTER script works with Python3.
 ```
 usage: git_hunter.py [-h] [-f FILENAME] [-c COOKIE] [-d DIRECTORY] enterprise
 
@@ -25,6 +26,14 @@ optional arguments:
 
 Author: Omar Palomino (A.K.A - EL PALOMO) | elpalomo.pe
 ```
+- Method 1: 
+Only search in the REPOSITORY section of Github.
+  1. Select an enterprise/organization in Github.
+  2. You can use GIT-HUNTER with the following command:
+    ```
+    root@kali:~/GIT-HUNTER# python3 git_hunter.py -d /opt antamina
+    ```
+
 
 ## Requirements
 
